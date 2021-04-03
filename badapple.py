@@ -1,7 +1,3 @@
-# imageio
-# vmflib
-# cv2
-
 import argparse
 import os
 import subprocess
