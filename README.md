@@ -10,7 +10,7 @@ You must also have Portal 2 Authoring tools installed (for the VMF to BSP conver
 
 * `--video` / `-vid` The video file to be made into portals - should be completely black and white (i.e. black *or* white but no in between )
 * `--width` / `-w` Width of output (in portals)
-* `--width` / `-he` Height of output (in portals)
+* `--height` / `-he` Height of output (in portals)
 * `--frames` / `-f` FPS of output
 * `--name` / `-n` Name of output map
 * `--portal2` / `-p2` The path to your Portal 2 install
