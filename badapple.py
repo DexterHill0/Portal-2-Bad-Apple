@@ -131,11 +131,11 @@ def setup():
     parser.add_argument("--portal2", "-p2", type=str,
                         help="Path to Portal 2 folder", dest="p2", default="C:\Program Files (x86)\Steam\steamapps\common\Portal 2")
     parser.add_argument("--width", "-w", type=int,
-                        help="Width of output video", dest="w", default=100)
+                        help="Width of output video", dest="w", default=26)
     parser.add_argument("--height", "-he", type=int,
-                        help="Height of of output videp", dest="h", default=100)
+                        help="Height of of output videp", dest="h", default=26)
     parser.add_argument("--frames", "-f", type=int,
-                        help="Number of frames per second for output video", dest="f", default=10)
+                        help="Number of frames per second for output video", dest="f", default=30)
 
     args = parser.parse_args()
 
